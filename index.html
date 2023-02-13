@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+   <h1 id="title"></h1>
+   <p id="description"></p>
+   <form class="survey-form">
+    <div class="name">
+      <label for="name" id="name-label">Name<input id="name" type="text" required placeholder="Enter Your Name"></label>
+    <!-- </fieldset> -->
+    <!-- <fieldset class="email"> -->
+      <label for="email" id="email-label">Email<input id="email" type="email" required placeholder="Enter Your Email"></label>
+    <!-- </fieldset> -->
+    <!-- <fieldset class="age"> -->
+      <label for="age" id="number-label">Age<input id="age" type="number" placeholder="Age(optional)"></label>
+    <!-- </fieldset> -->
+    </div>
+    <div class="describe-role">
+     <label for="">Which option best describes your current role?
+        <select id="roles">
+            <option value="#">select current role</option>
+            <option value="#">Student</option>
+            <option value="#">Full time job</option>
+            <option value="#">others</option>
+        </select>
+     </label>
+    <!-- </fieldset>
+    <fieldset class="referals"> -->
+    <!-- <div class="referals">   -->
+     <label for="#">Would you recommend freeCodeCamp to a friend?</label>
+     <div class="referals">
+        <input type="radio">Definitely</input><input type="radio">Maybe</input> <input type="radio">Not sure</input>
+    </div>
+    <!-- </div>   -->
+    <!-- </fieldset>
+    <fieldset class="about"> -->
+     <label>How did you hear about us?
+        <select>
+          <option>(select one)</option>
+          <option>Instagram</option>
+          <option>Facebook</option>
+          <option>Google</option>
+          <option>Other</option>
+        </select>
+      </label>
+    </div>
+     
+       <label for="text">Any comments or suggestions?
+        <div class="text-area">
+       <textarea name="text" id="text" cols="20" rows="5" placeholder="Enter your comments.."></textarea></label>
+     </div>
+     <div class="btn">
+     <button class="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
