@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 5rem auto;
+    margin: 3.5rem auto;
     width: 100vw;
     height: auto;
     background-color: #d9dbe9;
@@ -17,22 +17,14 @@ body{
 .survey-form{
     background-color: #5e5f65;
     width: 30rem;
-    height: auto;
-    /* display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    
+    height: auto;    
 }
 .referals{
-    /* background-color: red; */
     display: flex;
     flex-direction:row;
     gap:1rem;
-    /* justify-content: center;
-    align-items: center; */
 }
 .describe-role{
-    /* background-color: red; */
     padding: 1rem 0.5rem;
     display: flex;
     flex-direction:column;
@@ -41,25 +33,27 @@ body{
     gap: 1rem;
 }
 .name{
-    /* background-color: red; */
     padding: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
 }
+.comments{
+    padding-left: 0.5rem;
+}
 .text-area{
-    /* background-color: red; */
     margin: 0.8rem;
 }
 .submit{
     background-color: #2e3245;
+    border-color: #2e3245;
     color: #ffff;
     width: 13rem;
     margin:1rem;
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 .btn{
-    /* background-color: red; */
     margin:1rem;
     display: flex;
     justify-content: center;
